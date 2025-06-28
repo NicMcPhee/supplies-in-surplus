@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import codssyi.SuppliesInSurplus;
 
 public class Acceptance {
-    public static String readInput(String filename) throws IOException {
+    private static String readInput(String filename) throws IOException {
         return Files.readString(Paths.get(filename));
     }
 
